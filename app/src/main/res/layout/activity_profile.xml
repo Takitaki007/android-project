@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/man"
+            android:importantForAccessibility="no" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/jame_sbone1"
+    android:layout_marginTop="30dp"
+    android:layout_gravity="center"
+    android:textStyle="bold"
+    android:textSize="30sp"
+    android:textColor="#000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/customer"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#009688" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp">
+    <Button
+    android:layout_width="150dp"
+    android:layout_height="60dp"
+    android:text="@string/follow"
+    android:textColor="#fff"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:background="#00FF0B"
+    android:layout_gravity="center_vertical"
+    android:layout_marginStart="40dp"
+        style="?android:attr/buttonBarButtonStyle" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="@string/message"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#FF1100"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="30dp"
+        style="?android:attr/buttonBarButtonStyle" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:background="#F1ECEC">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/home_button"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center_vertical"
+            android:importantForAccessibility="no" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/overview"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:background="#F1ECEC">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/personal"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center_vertical"
+                android:importantForAccessibility="no" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/account_setting"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:background="#F1ECEC">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/task"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center_vertical"
+                android:importantForAccessibility="no" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tasks"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:background="#F1ECEC">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/help"
+                android:layout_marginStart="10dp"
+                android:layout_gravity="center_vertical"
+                android:importantForAccessibility="no" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/help"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="20dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
